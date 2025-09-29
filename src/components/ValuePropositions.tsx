@@ -1,23 +1,23 @@
-import { TrendingUp, Heart, Zap } from 'lucide-react';
+import { TrendingUp, Heart, Zap, Clock, DollarSign, Cpu } from 'lucide-react';
 
 const propositions = [
   {
-    icon: TrendingUp,
-    title: 'Convert 3X More Leads',
-    description: 'Turn cold prospects into paying customers with AI-powered conversations that never sleep',
-    metric: '300% increase in conversion rates'
+    icon: Clock,
+    title: 'Save 1,000+ Hours',
+    description: 'Automate repetitive tasks and streamline workflows with custom AI solutions built for your business',
+    metric: 'Average 1,200 hours saved annually'
   },
   {
-    icon: Heart,
-    title: 'Scale Personal Touch',
-    description: 'Deliver personalized experiences to thousands of customers simultaneously with human-like AI',
-    metric: '95% customer satisfaction score'
+    icon: DollarSign,
+    title: 'Cut Costs by 40%',
+    description: 'Reduce operational expenses through intelligent automation and optimized tech infrastructure',
+    metric: 'Up to 40% cost reduction'
   },
   {
-    icon: Zap,
-    title: 'Launch in Minutes',
-    description: 'Deploy sophisticated AI campaigns instantly without technical expertise or lengthy setup',
-    metric: '5-minute setup time'
+    icon: Cpu,
+    title: 'Custom AI Solutions',
+    description: 'Get tailored AI and tech solutions designed specifically for your industry and business needs',
+    metric: '100% custom-built for you'
   }
 ];
 
@@ -27,10 +27,10 @@ export default function ValuePropositions() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Why Leading Companies Choose ConvertAI
+            Why Businesses Choose Our AI & Tech Solutions
           </h2>
           <p className="text-xl text-gray-600 font-light max-w-2xl mx-auto">
-            Transform your business with AI that works around the clock to grow your revenue
+            We build practical AI and tech solutions that deliver real results for your business
           </p>
         </div>
         

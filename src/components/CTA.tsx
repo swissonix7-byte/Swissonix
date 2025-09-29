@@ -9,10 +9,10 @@ export default function CTA() {
       <section className="py-24 bg-gradient-to-br from-blue-600 to-emerald-600">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
-          Ready to 5X Your Revenue?
+          Ready to Transform Your Business with AI?
         </h2>
         <p className="text-xl text-blue-100 mb-10 font-light">
-          Join 500+ companies already growing with ConvertAI
+          Join 200+ businesses already saving time and money with our solutions
         </p>
         
         <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">

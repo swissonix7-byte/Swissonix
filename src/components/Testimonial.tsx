@@ -16,18 +16,18 @@ export default function Testimonial() {
             {/* Content */}
             <div className="flex-1 text-center md:text-left">
               <blockquote className="text-xl md:text-2xl text-gray-700 font-light mb-6 leading-relaxed">
-                "ConvertAI transformed our customer engagement completely. We went from struggling to reach prospects to having meaningful conversations at scale."
+                "Their AI solutions automated our entire customer service workflow. We've saved over 30 hours per week and our response times improved by 80%."
               </blockquote>
               
               <div className="mb-4">
-                <div className="font-semibold text-gray-900 text-lg">Sarah Chen</div>
-                <div className="text-gray-600">Head of Growth, TechFlow</div>
+                <div className="font-semibold text-gray-900 text-lg">Michael Rodriguez</div>
+                <div className="text-gray-600">Operations Director, RetailPlus</div>
               </div>
               
               {/* ROI Highlight */}
               <div className="inline-flex items-center bg-gradient-to-r from-emerald-50 to-blue-50 border border-emerald-200 rounded-full px-6 py-3">
                 <div className="text-sm font-semibold text-emerald-700">
-                  100% leads contacted • ROI 5X+
+                  30+ hours saved weekly • 80% faster response times
                 </div>
               </div>
             </div>
