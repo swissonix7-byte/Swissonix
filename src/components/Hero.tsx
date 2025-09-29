@@ -12,17 +12,8 @@ export default function Hero() {
 
         {/* Main Headline */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-          We've helped businesses save{' '}
-          <span className="bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent">
-            1,000+ hours
-          </span>
-          {' '}and cut costs by up to{' '}
-          <span className="bg-gradient-to-r from-blue-600 to-emerald-600 bg-clip-text text-transparent">
-            40%
-          </span>
-          {' '}with AI and smart tech solutions.
+          We Build AI and Tech That Actually Works
         </h1>
-
         {/* Subheadline */}
         <p className="text-xl sm:text-2xl text-gray-600 mb-8 font-light max-w-3xl mx-auto">
           We help brands and traditional businesses use AI and custom tech to cut costs, automate tasks, and work smarter.
