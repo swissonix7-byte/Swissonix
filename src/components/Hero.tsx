@@ -2,7 +2,7 @@ import { Mic, MessageCircle, Linkedin, Facebook, Mail } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="pt-16 pb-24 bg-gradient-to-b from-white to-gray-50">
+    <section className="pt-32 pb-24 bg-gradient-to-b from-white to-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Social Proof Badge */}
         <div className="inline-flex items-center bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-8">
