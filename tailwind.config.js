@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Baloo2', 'system-ui', 'sans-serif'],
-      },
+          sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-in-out',
         'slide-up': 'slideUp 0.8s ease-out',
