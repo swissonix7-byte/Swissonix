@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import ImpactResults from './components/ImpactResults';
 import ValuePropositions from './components/ValuePropositions';
 import Testimonial from './components/Testimonial';
 import CTA from './components/CTA';
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Services />
+      <ImpactResults />
       <ValuePropositions />
       <Testimonial />
       <CTA />
