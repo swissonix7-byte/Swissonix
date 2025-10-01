@@ -18,7 +18,7 @@ export default function Header() {
   });
 
   const navLinks = [
-    { name: 'Services', href: '#services' },
+    { name: 'Services', href: '/services' },
     { name: 'Case Studies', href: '#case-studies' },
     { name: 'About', href: '#about' },
     { name: 'Contact', href: '#contact' }
@@ -42,7 +42,27 @@ export default function Header() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
               {navLinks.map((link) => (
-                <a
+                {link.href.startsWith('/') ? (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group"
+                  >
+                    {link.name}
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-emerald-600 transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                ) : (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group"
+                  >
+                    {link.name}
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-emerald-600 transition-all duration-300 group-hover:w-full"></span>
+                  </a>
+                )}
+              ))}
+            </nav>
                   key={link.name}
                   href={link.href}
                   className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group"
