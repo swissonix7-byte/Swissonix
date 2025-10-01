@@ -84,7 +84,7 @@ export default function Hero() {
                 <span className="font-medium">AutoGrow</span>
               </div>
               </div>
-              <span className="font-medium">AutoGrow</span>
+              
           </div>
         </div>
       </div>
