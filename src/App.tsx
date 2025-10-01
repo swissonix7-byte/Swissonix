@@ -7,6 +7,7 @@ import ValuePropositions from './components/ValuePropositions';
 import Testimonial from './components/Testimonial';
 import CTA from './components/CTA';
 import ServicesPage from './pages/Services';
+import ContactPage from './pages/Contact';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             </>
           } />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </div>
     </Router>
