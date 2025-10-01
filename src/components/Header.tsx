@@ -83,7 +83,7 @@ export default function Header() {
                   <X className="w-6 h-6 text-gray-700" />
                 ) : (
                   <Menu className="w-6 h-6 text-gray-700" />
-                )}
+                )
               </button>
             </div>
           </div>
