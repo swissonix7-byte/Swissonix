@@ -35,53 +35,53 @@ export default function Hero() {
             <div className="flex animate-scroll space-x-12 opacity-60">
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">TC</span>
+                  <span className="text-xs font-bold">sF</span>
                 </div>
-                <span className="font-medium">TechCorp</span>
+                <span className="font-medium">SayF</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">IS</span>
+                  <span className="text-xs font-bold">MTV</span>
                 </div>
-                <span className="font-medium">InnovateSoft</span>
+                <span className="font-medium">MTV</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">DS</span>
+                  <span className="text-xs font-bold">P</span>
                 </div>
-                <span className="font-medium">DataSolutions</span>
+                <span className="font-medium">111PG</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">AG</span>
+                  <span className="text-xs font-bold">S</span>
                 </div>
-                <span className="font-medium">AutoGrow</span>
+                <span className="font-medium">Suvichaar</span>
               </div>
               
               {/* Duplicate for seamless loop */}
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">TC</span>
+                  <span className="text-xs font-bold">sF</span>
                 </div>
-                <span className="font-medium">TechCorp</span>
+                <span className="font-medium">SayF</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">IS</span>
+                  <span className="text-xs font-bold">M</span>
                 </div>
-                <span className="font-medium">InnovateSoft</span>
+                <span className="font-medium">MTV</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">DS</span>
+                  <span className="text-xs font-bold">P</span>
                 </div>
-                <span className="font-medium">DataSolutions</span>
+                <span className="font-medium">111PG</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">AG</span>
+                  <span className="text-xs font-bold">S</span>
                 </div>
-                <span className="font-medium">AutoGrow</span>
+                <span className="font-medium">Suvichaar</span>
               </div>
               </div>
               
