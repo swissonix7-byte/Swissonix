@@ -1,5 +1,5 @@
 import { Zap, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import DemoModal from './DemoModal';
 
 export default function Header() {
@@ -8,14 +8,14 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   // Handle scroll effect
-  useState(() => {
+  useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
     
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  });
+  }, []);
 
   const navLinks = [
     { name: 'Services', href: '/services' },
@@ -60,7 +60,7 @@ export default function Header() {
                     {link.name}
                     <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-emerald-600 transition-all duration-300 group-hover:w-full"></span>
                   </a>
-                )}
+                )
               ))}
             </nav>
 
