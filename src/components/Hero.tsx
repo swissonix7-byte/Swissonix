@@ -27,35 +27,64 @@ export default function Hero() {
         </div>
 
         {/* Moving Logo Strip */}
-        <div className="overflow-hidden">
-          <div className="flex items-center justify-center space-x-8 animate-pulse">
+        <div className="overflow-hidden mt-16">
+          <div className="flex items-center justify-center space-x-8">
             <span className="text-sm font-medium text-gray-500 mb-4">Trusted by companies like:</span>
           </div>
-          <div className="flex items-center justify-center space-x-12 opacity-60">
-            <div className="flex items-center space-x-2 text-gray-400">
-              <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-xs font-bold">TC</span>
+          <div className="relative overflow-hidden">
+            <div className="flex animate-scroll space-x-12 opacity-60">
+              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-xs font-bold">TC</span>
+                </div>
+                <span className="font-medium">TechCorp</span>
               </div>
-              <span className="font-medium">TechCorp</span>
-            </div>
-            <div className="flex items-center space-x-2 text-gray-400">
-              <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-xs font-bold">IS</span>
+              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-xs font-bold">IS</span>
+                </div>
+                <span className="font-medium">InnovateSoft</span>
               </div>
-              <span className="font-medium">InnovateSoft</span>
-            </div>
-            <div className="flex items-center space-x-2 text-gray-400">
-              <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-xs font-bold">DS</span>
+              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-xs font-bold">DS</span>
+                </div>
+                <span className="font-medium">DataSolutions</span>
               </div>
-              <span className="font-medium">DataSolutions</span>
-            </div>
-            <div className="flex items-center space-x-2 text-gray-400">
-              <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                <span className="text-xs font-bold">AG</span>
+              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-xs font-bold">AG</span>
+                </div>
+                <span className="font-medium">AutoGrow</span>
+              </div>
+              
+              {/* Duplicate for seamless loop */}
+              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-xs font-bold">TC</span>
+                </div>
+                <span className="font-medium">TechCorp</span>
+              </div>
+              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-xs font-bold">IS</span>
+                </div>
+                <span className="font-medium">InnovateSoft</span>
+              </div>
+              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-xs font-bold">DS</span>
+                </div>
+                <span className="font-medium">DataSolutions</span>
+              </div>
+              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <span className="text-xs font-bold">AG</span>
+                </div>
+                <span className="font-medium">AutoGrow</span>
+              </div>
               </div>
               <span className="font-medium">AutoGrow</span>
-            </div>
           </div>
         </div>
       </div>
