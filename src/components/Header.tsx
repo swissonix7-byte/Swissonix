@@ -42,7 +42,7 @@ export default function Header() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
               {navLinks.map((link) => (
-                {link.href.startsWith('/') ? (
+                link.href.startsWith('/') ? (
                   <a
                     key={link.name}
                     href={link.href}
@@ -61,15 +61,6 @@ export default function Header() {
                     <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-emerald-600 transition-all duration-300 group-hover:w-full"></span>
                   </a>
                 )}
-              ))}
-            </nav>
-                  key={link.name}
-                  href={link.href}
-                  className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative group"
-                >
-                  {link.name}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-emerald-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
               ))}
             </nav>
 
