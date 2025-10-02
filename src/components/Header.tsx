@@ -72,7 +72,7 @@ export default function Header() {
                 onClick={() => setIsModalOpen(true)}
                 className="hidden md:inline-flex bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-6 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
-                Book a Demo
+                Talk to Our Team
               </button>
 
               {/* Mobile Menu Button */}
