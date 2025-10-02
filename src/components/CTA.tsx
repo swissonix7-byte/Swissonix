@@ -16,12 +16,14 @@ export default function CTA() {
         </p>
         
         <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-          <button 
-            onClick={() => setIsModalOpen(true)}
-            className="w-full sm:w-auto bg-white hover:bg-gray-100 text-gray-900 px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          <a 
+            href="https://cal.com/kumar-mayank"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-full sm:w-auto bg-white hover:bg-gray-100 text-gray-900 px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl text-center"
           >
             Talk to Our Team
-          </button>
+          </a>
           <button className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105">
             Explore Our Work
           </button>

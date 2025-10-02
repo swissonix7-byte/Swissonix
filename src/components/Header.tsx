@@ -68,12 +68,14 @@ export default function Header() {
             {/* Desktop CTA + Mobile Menu Button */}
             <div className="flex items-center space-x-4">
               {/* Desktop CTA */}
-              <button 
-                onClick={() => setIsModalOpen(true)}
+              <a 
+                href="https://cal.com/kumar-mayank"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hidden md:inline-flex bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-6 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 Talk to Our Team
-              </button>
+              </a>
 
               {/* Mobile Menu Button */}
               <button
@@ -107,15 +109,15 @@ export default function Header() {
                     {link.name}
                   </a>
                 ))}
-                <button 
-                  onClick={() => {
-                    setIsModalOpen(true);
-                    setIsMobileMenuOpen(false);
-                  }}
-                  className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-6 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl mt-4 text-center"
+                <a 
+                  href="https://cal.com/kumar-mayank"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="inline-block bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-6 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl mt-4 text-center"
                 >
-                  Book a Demo
-                </button>
+                  Talk to Our Team
+                </a>
               </nav>
             </div>
           </div>

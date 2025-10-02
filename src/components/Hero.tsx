@@ -21,9 +21,14 @@ export default function Hero() {
 
         {/* CTA Button */}
         <div className="mb-12">
-          <button className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl">
+          <a 
+            href="https://cal.com/kumar-mayank"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          >
             Talk to Our Team
-          </button>
+          </a>
         </div>
 
         {/* Moving Logo Strip */}
