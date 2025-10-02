@@ -24,9 +24,12 @@ export default function CTA() {
           >
             Talk to Our Team
           </a>
-          <button className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105">
+          <a 
+            href="/case-studies"
+            className="inline-block w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 text-center"
+          >
             Explore Our Work
-          </button>
+          </a>
         </div>
         
         <p className="text-blue-200 text-sm mt-6">

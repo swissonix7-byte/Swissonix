@@ -129,9 +129,12 @@ export default function Services() {
               Talk to Our Team
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>
-            <button className="w-full sm:w-auto border-2 border-gray-300 text-gray-700 hover:border-blue-600 hover:text-blue-600 px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105">
+            <a 
+              href="/case-studies"
+              className="inline-block w-full sm:w-auto border-2 border-gray-300 text-gray-700 hover:border-blue-600 hover:text-blue-600 px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 text-center"
+            >
               Explore Our Work
-            </button>
+            </a>
           </div>
         </div>
       </section>
