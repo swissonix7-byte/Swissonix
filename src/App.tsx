@@ -8,6 +8,7 @@ import Testimonial from './components/Testimonial';
 import CTA from './components/CTA';
 import ServicesPage from './pages/Services';
 import ContactPage from './pages/Contact';
+import CaseStudiesPage from './pages/CaseStudies';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           } />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/case-studies" element={<CaseStudiesPage />} />
         </Routes>
       </div>
     </Router>
