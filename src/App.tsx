@@ -6,6 +6,7 @@ import ImpactResults from './components/ImpactResults';
 import ValuePropositions from './components/ValuePropositions';
 import Testimonial from './components/Testimonial';
 import CTA from './components/CTA';
+import Footer from './components/Footer';
 import ServicesPage from './pages/Services';
 import ContactPage from './pages/Contact';
 import CaseStudiesPage from './pages/CaseStudies';
@@ -24,6 +25,7 @@ function App() {
               <ValuePropositions />
               <Testimonial />
               <CTA />
+              <Footer />
             </>
           } />
           <Route path="/services" element={<ServicesPage />} />

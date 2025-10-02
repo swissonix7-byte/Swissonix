@@ -1,5 +1,6 @@
 import { ExternalLink, Code, Users, Zap, Brain, Globe, ArrowRight, Calendar, Target, TrendingUp } from 'lucide-react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const caseStudies = [
   {
@@ -298,6 +299,8 @@ export default function CaseStudies() {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 }

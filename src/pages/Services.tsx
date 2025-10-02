@@ -1,5 +1,6 @@
 import { Brain, Users, Zap, MessageCircle, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const services = [
   {
@@ -129,6 +130,8 @@ export default function Services() {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 }
