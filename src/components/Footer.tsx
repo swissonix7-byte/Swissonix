@@ -17,17 +17,12 @@ export default function Footer() {
     { name: 'Contact', href: '/contact' }
   ];
 
-  const projects = [
-    { name: 'Suvichaar.org', href: 'https://suvichaar.org' },
-    { name: 'Listerr', href: 'https://www.listerr.in' },
-    { name: 'Content Labs', href: 'https://labs.suvichaar.org' }
-  ];
 
   return (
     <footer className="bg-gray-900 text-white">
       {/* Main Footer Content */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           
           {/* Company Info */}
           <div className="lg:col-span-1">
@@ -88,26 +83,6 @@ export default function Footer() {
                     className="text-gray-300 hover:text-white transition-colors duration-200 font-light"
                   >
                     {item.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Featured Projects */}
-          <div>
-            <h3 className="text-lg font-bold mb-6">Featured Projects</h3>
-            <ul className="space-y-3">
-              {projects.map((project, index) => (
-                <li key={index}>
-                  <a 
-                    href={project.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-white transition-colors duration-200 font-light flex items-center group"
-                  >
-                    {project.name}
-                    <ExternalLink className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                   </a>
                 </li>
               ))}
