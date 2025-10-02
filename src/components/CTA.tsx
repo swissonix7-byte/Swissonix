@@ -20,10 +20,10 @@ export default function CTA() {
             onClick={() => setIsModalOpen(true)}
             className="w-full sm:w-auto bg-white hover:bg-gray-100 text-gray-900 px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
-            Book a Demo
+            Talk to Our Team
           </button>
           <button className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-full font-semibold transition-all duration-200 transform hover:scale-105">
-            View Pricing
+            Explore Our Work
           </button>
         </div>
         
