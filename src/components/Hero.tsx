@@ -41,7 +41,6 @@ export default function Hero() {
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
                   <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEieRREr7JctQ/company-logo_200_200/company-logo_200_200/0/1730104690449/111pg_logo?e=1762387200&v=beta&t=WQUa9cDUdPV829jTIWrrZe-l80BG141Szye3RHuSdPU" alt="" />
-
                 </div>
                 <span className="font-medium">SayF</span>
               </div>
@@ -53,7 +52,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">P</span>
+                  <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEieRREr7JctQ/company-logo_200_200/company-logo_200_200/0/1730104690449/111pg_logo?e=1762387200&v=beta&t=WQUa9cDUdPV829jTIWrrZe-l80BG141Szye3RHuSdPU" alt="" />
                 </div>
                 <span className="font-medium">111PG</span>
               </div>
