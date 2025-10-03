@@ -72,7 +72,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-xs font-bold">M</span>
+                  <img src="https://res.cloudinary.com/dvgoquoqv/image/upload/v1759518191/images_nrwjqm.png" alt="" />
                 </div>
                 <span className="font-medium">MTV</span>
               </div>
