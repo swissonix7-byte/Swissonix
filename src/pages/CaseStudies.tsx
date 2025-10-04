@@ -81,7 +81,7 @@ const caseStudies = [
     ],
     technologies: ['GPT-Vision', 'DALL·E', 'Python', 'FastAPI', 'Docker', 'Analytics APIs'],
     link: 'https://labs.suvichaar.org',
-    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+    image: 'https://res.cloudinary.com/dvgoquoqv/image/upload/v1759587388/Screenshot_2025-10-04_194614_zljlrm.png',
     year: '2024'
   }
 ];
