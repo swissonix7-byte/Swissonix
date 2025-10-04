@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Social Proof Badge */}
         <div className="inline-flex items-center bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-8">
-          <div className="w-2 h-2 bg-blue-600 rounded-full mr-55"></div>
+          <div className="w-2 h-2 bg-blue-600 rounded-full mr-5555"></div>
           Trusted by growing startups and established businesses
         </div>
 
