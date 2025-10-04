@@ -91,7 +91,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEieRREr7JctQ/company-logo_200_200/company-logo_200_200/0/1730104690449/111pg_logo?e=1762387200&v=beta&t=WQUa9cDUdPV829jTIWrrZe-l80BG141Szye3RHuSdPU" alt="" />
+                  <img src="https://res.cloudinary.com/dvgoquoqv/image/upload/v1759558754/Screenshot_2025-10-04_114856_xpa0d3.png" alt="" />
                 </div>
                 <span className="font-medium">Suvichaar</span>
               </div>
