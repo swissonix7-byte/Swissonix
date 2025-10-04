@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           
           {/* Company Info */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-emerald-600 rounded-xl flex items-center justify-center shadow-lg">
                 <Zap className="w-6 h-6 text-white" />
@@ -56,25 +56,8 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Services */}
-          <div>
-            <h3 className="text-lg font-bold mb-6">Our Services</h3>
-            <ul className="space-y-3">
-              {services.map((service, index) => (
-                <li key={index}>
-                  <a 
-                    href="/services" 
-                    className="text-gray-300 hover:text-white transition-colors duration-200 font-light"
-                  >
-                    {service}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           {/* Company */}
-          <div>
+          <div className="md:col-start-2 lg:col-start-3">
             <h3 className="text-lg font-bold mb-6">Company</h3>
             <ul className="space-y-3">
               {company.map((item, index) => (
@@ -88,6 +71,23 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+            
+            {/* Services moved under Company */}
+            <div className="mt-8">
+              <h3 className="text-lg font-bold mb-6">Our Services</h3>
+              <ul className="space-y-3">
+                {services.map((service, index) => (
+                  <li key={index}>
+                    <a 
+                      href="/services" 
+                      className="text-gray-300 hover:text-white transition-colors duration-200 font-light"
+                    >
+                      {service}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
