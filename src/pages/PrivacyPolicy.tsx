@@ -248,7 +248,7 @@ export default function PrivacyPolicy() {
               </p>
               
               <div className="space-y-2 text-gray-700">
-                <p><strong>Email:</strong> krmayank2002@gmail.com</p>
+                <p><strong>Email:</strong> contact@gmail.com</p>
                 <p><strong>Company:</strong> StackFive</p>
                 <p><strong>Address:</strong> San Francisco, CA</p>
               </div>
