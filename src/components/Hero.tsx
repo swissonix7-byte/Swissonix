@@ -103,52 +103,7 @@ export default function Hero() {
                 </div>
                 <span className="font-medium">Suvichaar</span>
               </div>
-              </div>
-              
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-                </div>
-                <span className="font-medium">Intel</span>
-              </div>
-              
-              {/* Duplicate for seamless loop */}
-              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
-                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <img src="https://res.cloudinary.com/dvgoquoqv/image/upload/v1759558546/Screenshot_2025-10-04_114525_s7pk6v.png" alt="" />
-                </div>
-                <span className="font-medium">SayF</span>
-              </div>
-              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
-                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <img src="https://res.cloudinary.com/dvgoquoqv/image/upload/v1759518191/images_nrwjqm.png" alt="" />
-                </div>
-                <span className="font-medium">MTV</span>
-              </div>
-              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
-                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEieRREr7JctQ/company-logo_200_200/company-logo_200_200/0/1730104690449/111pg_logo?e=1762387200&v=beta&t=WQUa9cDUdPV829jTIWrrZe-l80BG141Szye3RHuSdPU" alt="" />
-                </div>
-                <span className="font-medium">111PG</span>
-              </div>
-              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
-                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <img src="https://images.seeklogo.com/logo-png/22/1/intel-logo-png_seeklogo-226413.png" alt="" />
-                </div>
-                <span className="font-medium">Intel</span>
-              </div>
-              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
-                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <img src="https://res.cloudinary.com/dvgoquoqv/image/upload/v1759558754/Screenshot_2025-10-04_114856_xpa0d3.png" alt="" />
-                </div>
-                <span className="font-medium">Suvichaar</span>
-              </div>
-              </div>
-              
+            </div>
           </div>
         </div>
       </div>
