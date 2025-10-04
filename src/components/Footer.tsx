@@ -32,19 +32,22 @@ export default function Footer() {
             </div>
             
             <p className="text-gray-300 font-light leading-relaxed mb-6">
-              We build AI and tech solutions that solve real business problems. 
-              Helping brands and traditional businesses cut costs, automate tasks, and work smarter.
+              We build AI and tech solutions that solve real business problems. Helping brands and traditional businesses cut costs, automate tasks, and work smarter.
             </p>
             
             {/* Contact Info */}
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">contact@swissonix.com</span>
+                <a href="mailto:contact@swissonix.com" className="text-gray-300 hover:text-white transition-colors">
+                  contact@swissonix.com
+                </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">+91 8446603369</span>
+                <a href="tel:+918446603369" className="text-gray-300 hover:text-white transition-colors">
+                  +91 8446603369
+                </a>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400" />
