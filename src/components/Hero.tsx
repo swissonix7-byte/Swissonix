@@ -58,6 +58,12 @@ export default function Hero() {
               </div>
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <img src="https://res.cloudinary.com/dvgoquoqv/image/upload/v1759558754/Screenshot_2025-10-04_114856_xpa0d3.png" alt="" />
+                </div>
+                <span className="font-medium">Suvichaar</span>
+              </div>
+              <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
                   <img src="https://images.seeklogo.com/logo-png/22/1/intel-logo-png_seeklogo-226413.png" alt="" />
 
                 </div>
