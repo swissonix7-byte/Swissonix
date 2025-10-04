@@ -21,7 +21,6 @@ export default function Testimonial() {
               
               <div className="mb-4">
                 <div className="font-semibold text-gray-900 text-lg">Michael Rodriguez</div>
-                <div className="text-gray-600">Operations Director, RetailPlus</div>
               </div>
               
               {/* ROI Highlight */}
