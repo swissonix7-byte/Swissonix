@@ -28,7 +28,7 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-emerald-600 rounded-xl flex items-center justify-center shadow-lg">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <span className="text-2xl font-bold">StackFive</span>
+              <span className="text-2xl font-bold">Swissonix</span>
             </div>
             
             <p className="text-gray-300 font-light leading-relaxed mb-6">
