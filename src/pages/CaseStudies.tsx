@@ -27,7 +27,7 @@ const caseStudies = [
     ],
     technologies: ['GPT API', 'AWS S3', 'CloudFront', 'AMP', 'TTS', 'Node.js'],
     link: 'https://suvichaar.org',
-    image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+    image: 'https://res.cloudinary.com/dvgoquoqv/image/upload/v1759587318/Screenshot_2025-10-04_194456_ucjarg.png',
     year: '2024'
   },
   {
