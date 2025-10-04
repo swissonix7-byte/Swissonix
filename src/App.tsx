@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import ServicesPage from './pages/Services';
 import CaseStudiesPage from './pages/CaseStudies';
 import PrivacyPolicyPage from './pages/PrivacyPolicy';
+import TermsOfServicePage from './pages/TermsOfService';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/case-studies" element={<CaseStudiesPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/terms-of-service" element={<TermsOfServicePage />} />
         </Routes>
       </div>
     </Router>
