@@ -9,6 +9,7 @@ import CTA from './components/CTA';
 import Footer from './components/Footer';
 import ServicesPage from './pages/Services';
 import CaseStudiesPage from './pages/CaseStudies';
+import PrivacyPolicyPage from './pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           } />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/case-studies" element={<CaseStudiesPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         </Routes>
       </div>
     </Router>
