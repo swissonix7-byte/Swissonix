@@ -31,10 +31,6 @@ export default function CTA() {
             Explore Our Work
           </a>
         </div>
-        
-        <p className="text-blue-200 text-sm mt-6">
-          No credit card required • 14-day free trial
-        </p>
       </div>
       </section>
       
