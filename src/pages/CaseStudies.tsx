@@ -54,7 +54,7 @@ const caseStudies = [
     ],
     technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'WebSockets', 'Payment APIs'],
     link: 'https://www.listerr.in',
-    image: 'https://res.cloudinary.com/dvgoquoqv/image/upload/v1759587462/Screenshot_2025-10-04_194726_dwi264.png',
+    image: 'https://res.cloudinary.com/dvgoquoqv/image/upload/v1759587504/Screenshot_2025-10-04_194813_na39dj.png',
     year: '2024'
   },
   {
