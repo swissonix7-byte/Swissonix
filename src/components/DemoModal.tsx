@@ -156,7 +156,7 @@ export default function DemoModal({ isOpen, onClose }: DemoModalProps) {
               type="submit"
               className="w-full bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white py-3 px-6 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
             >
-              Book My Demo
+              Talk to Our Team
             </button>
 
             <p className="text-xs text-gray-500 text-center">
