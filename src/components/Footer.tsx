@@ -96,7 +96,7 @@ export default function Footer() {
             
             {/* Copyright */}
             <div className="text-gray-400 text-sm">
-              © {currentYear} StackFive. All rights reserved.
+              © {currentYear} Swissonix. All rights reserved.
             </div>
 
             {/* Social Links */}
