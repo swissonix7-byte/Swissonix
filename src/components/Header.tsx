@@ -35,7 +35,7 @@ export default function Header() {
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-emerald-600 rounded-xl flex items-center justify-center shadow-lg">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <span className="text-2xl font-bold text-gray-900">StackFive</span>
+              <span className="text-2xl font-bold text-gray-900">Swissonix</span>
             </div>
 
             {/* Desktop Navigation */}
