@@ -67,7 +67,7 @@ export default function Hero() {
               {/* Duplicate for seamless loop */}
               <div className="flex items-center space-x-2 text-gray-400 whitespace-nowrap">
                 <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
-                  <img src="https://www.titancapital.vc/wp-content/uploads/2022/02/sayf-1.png" alt="" />
+                  <img src="https://res.cloudinary.com/dvgoquoqv/image/upload/v1759558546/Screenshot_2025-10-04_114525_s7pk6v.png" alt="" />
                 </div>
                 <span className="font-medium">SayF</span>
               </div>
