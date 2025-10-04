@@ -11,11 +11,13 @@ import ServicesPage from './pages/Services';
 import CaseStudiesPage from './pages/CaseStudies';
 import PrivacyPolicyPage from './pages/PrivacyPolicy';
 import TermsOfServicePage from './pages/TermsOfService';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-white font-sans">
+        <WhatsAppButton />
         <Routes>
           <Route path="/" element={
             <>
