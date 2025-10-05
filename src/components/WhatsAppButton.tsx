@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function WhatsAppButton() {
   const [isExpanded, setIsExpanded] = useState(false);
   
-  const phoneNumber = "918446603369"; // Your WhatsApp number
+  const phoneNumber = "916376387235"; // Your WhatsApp number
   const message = "Hi! I'm interested in your AI and tech solutions. Can we discuss my project?";
   
   const handleWhatsAppClick = () => {
