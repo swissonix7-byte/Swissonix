@@ -11,13 +11,12 @@ import ServicesPage from './pages/Services';
 import CaseStudiesPage from './pages/CaseStudies';
 import PrivacyPolicyPage from './pages/PrivacyPolicy';
 import TermsOfServicePage from './pages/TermsOfService';
-import WhatsAppButton from './components/WhatsAppButton';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-white font-sans">
-        <WhatsAppButton />
         <Routes>
           <Route path="/" element={
             <>
@@ -36,6 +35,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/terms-of-service" element={<TermsOfServicePage />} />
         </Routes>
+        <Analytics />
       </div>
     </Router>
   );
