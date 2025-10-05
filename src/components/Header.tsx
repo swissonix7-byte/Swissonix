@@ -74,7 +74,7 @@ export default function Header() {
                   Explore Our Work
                 </a>
                 <a 
-                  href="https://cal.com/kumar-mayank"
+                  href="https://calendly.com/swissonix7/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-6 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
@@ -124,7 +124,7 @@ export default function Header() {
                     Explore Our Work
                   </a>
                   <a 
-                    href="https://cal.com/kumar-mayank"
+                    href="https://calendly.com/swissonix7/30min"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setIsMobileMenuOpen(false)}
