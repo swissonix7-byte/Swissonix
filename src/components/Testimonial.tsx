@@ -4,23 +4,17 @@ export default function Testimonial() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-3xl p-12 shadow-xl border border-gray-100">
           <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8">
-            {/* Avatar */}
-            <div className="flex-shrink-0">
-              <img
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
-                alt="Customer"
-                className="w-20 h-20 rounded-full object-cover"
-              />
-            </div>
+            
             
             {/* Content */}
             <div className="flex-1 text-center md:text-left">
               <blockquote className="text-xl md:text-2xl text-gray-700 font-light mb-6 leading-relaxed">
-                "Their AI solutions automated our entire customer service workflow. We've saved over 30 hours per week and our response times improved by 80%."
+                "Had a great experience working with this agency! They perfectly captured my vision and built a website that looks amazing and works flawlessly. Super professional, creative, and easy to work with."
               </blockquote>
               
               <div className="mb-4">
-                <div className="font-semibold text-gray-900 text-lg">Michael Rodriguez</div>
+                <div className="font-semibold text-gray-900 text-lg">Adeel Mohammad Khan</div>
+                <div className="font-semibold text-gray-400 text-lg">Founder, Jasinnova, Dubai</div>
               </div>
               
               {/* ROI Highlight */}
