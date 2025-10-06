@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export default function TermsOfService() {
-  const lastUpdated = "January 15, 2025";
+  const lastUpdated = "October 5, 2025";
 
   return (
     <div className="min-h-screen bg-white font-sans">
@@ -43,7 +43,7 @@ export default function TermsOfService() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-0">Agreement to Terms</h2>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                These Terms of Service ("Terms") govern your use of StackFive's website and AI development services. 
+                These Terms of Service ("Terms") govern your use of Swissonix's website and AI development services. 
                 By accessing our website or engaging our services, you agree to be bound by these Terms. If you do not 
                 agree to these Terms, please do not use our services.
               </p>
@@ -58,7 +58,7 @@ export default function TermsOfService() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-0">Our Services</h2>
               </div>
               
-              <p className="text-gray-600 mb-4">StackFive provides the following services:</p>
+              <p className="text-gray-600 mb-4">Swissonix provides the following services:</p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2">
                 <li>Custom AI development and implementation</li>
                 <li>Business process automation solutions</li>
@@ -163,7 +163,7 @@ export default function TermsOfService() {
                   third-party components.
                 </p>
                 <p className="text-gray-600">
-                  <strong>StackFive Property:</strong> We retain ownership of our methodologies, frameworks, tools, 
+                  <strong>Swissonix Property:</strong> We retain ownership of our methodologies, frameworks, tools, 
                   and any pre-existing intellectual property used in delivering services.
                 </p>
                 <p className="text-gray-600">
@@ -224,7 +224,7 @@ export default function TermsOfService() {
               </div>
               
               <p className="text-gray-600">
-                To the maximum extent permitted by law, StackFive's total liability for any claims arising from our 
+                To the maximum extent permitted by law, Swissonix's total liability for any claims arising from our 
                 services shall not exceed the total amount paid by the client for the specific project giving rise to 
                 the claim. We shall not be liable for any indirect, incidental, special, or consequential damages.
               </p>
@@ -263,9 +263,9 @@ export default function TermsOfService() {
               </div>
               
               <p className="text-gray-600">
-                These Terms shall be governed by and construed in accordance with the laws of the State of California, 
-                United States, without regard to its conflict of law provisions. Any disputes shall be resolved through 
-                binding arbitration in San Francisco, California.
+                These Terms shall be governed by and construed in accordance with the laws of the India
+                , without regard to its conflict of law provisions. Any disputes shall be resolved through 
+                binding arbitration in New Delhi, India.
               </p>
             </div>
 
@@ -299,9 +299,9 @@ export default function TermsOfService() {
               </p>
               
               <div className="space-y-2 text-gray-700">
-                <p><strong>Email:</strong> krmayank2002@gmail.com</p>
-                <p><strong>Company:</strong> StackFive</p>
-                <p><strong>Address:</strong> San Francisco, CA</p>
+                <p><strong>Email:</strong> contact@swissonix.com</p>
+                <p><strong>Company:</strong> Swissonix</p>
+                <p><strong>Address:</strong> New Delhi, India</p>
               </div>
               
               <p className="text-gray-600 mt-4">
