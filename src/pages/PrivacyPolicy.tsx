@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export default function PrivacyPolicy() {
-  const lastUpdated = "January 15, 2025";
+  const lastUpdated = "October 5, 2025";
 
   return (
     <div className="min-h-screen bg-white font-sans">
@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-0">Introduction</h2>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                At StackFive ("we," "our," or "us"), we respect your privacy and are committed to protecting your personal information. 
+                At Swissonix ("we," "our," or "us"), we respect your privacy and are committed to protecting your personal information. 
                 This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website 
                 or use our AI development and automation services.
               </p>
@@ -193,7 +193,7 @@ export default function PrivacyPolicy() {
               
               <p className="text-gray-600 mb-4">Our website may integrate with third-party services:</p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2">
-                <li><strong>Cal.com:</strong> For appointment scheduling (subject to Cal.com's privacy policy)</li>
+                <li><strong>Calendly.com:</strong> For appointment scheduling (subject to Calendly.com's privacy policy)</li>
                 <li><strong>Analytics Services:</strong> For website performance monitoring</li>
                 <li><strong>Communication Tools:</strong> For customer support and project management</li>
               </ul>
@@ -248,9 +248,9 @@ export default function PrivacyPolicy() {
               </p>
               
               <div className="space-y-2 text-gray-700">
-                <p><strong>Email:</strong> contact@gmail.com</p>
-                <p><strong>Company:</strong> StackFive</p>
-                <p><strong>Address:</strong> San Francisco, CA</p>
+                <p><strong>Email:</strong> contact@swissonix.com</p>
+                <p><strong>Company:</strong> Swissonix</p>
+                <p><strong>Address:</strong> New Delhi, India</p>
               </div>
               
               <p className="text-gray-600 mt-4">
