@@ -68,13 +68,7 @@ export default function Header() {
               {/* Desktop CTA */}
               <div className="hidden md:flex items-center space-x-3">
                 <a 
-                  href="/case-studies"
-                  className="border-2 border-gray-300 text-gray-700 hover:border-blue-600 hover:text-blue-600 px-6 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105"
-                >
-                  Explore Our Work
-                </a>
-                <a 
-                  href="https://calendly.com/swissonix7/30min"
+                  href="https://cal.com/kumar-mayank"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white px-6 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl"
@@ -117,14 +111,7 @@ export default function Header() {
                 ))}
                 <div className="space-y-3 mt-4">
                   <a 
-                    href="/case-studies"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="block border-2 border-gray-300 text-gray-700 hover:border-blue-600 hover:text-blue-600 px-6 py-3 rounded-full font-semibold transition-all duration-200 transform hover:scale-105 text-center"
-                  >
-                    Explore Our Work
-                  </a>
-                  <a 
-                    href="https://calendly.com/swissonix7/30min"
+                    href="https://cal.com/kumar-mayank"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setIsMobileMenuOpen(false)}
