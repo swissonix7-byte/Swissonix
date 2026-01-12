@@ -45,13 +45,13 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-blue-400" />
-                <a href="tel:+918446603369" className="text-gray-300 hover:text-white transition-colors">
-                  +91 8446603369
+                <a href="tel:+917762925373" className="text-gray-300 hover:text-white transition-colors">
+                  +91 7762925373
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">New Delhi, India</span>
+                <span className="text-gray-300">Bangalore, India</span>
               </div>
             </div>
           </div>
