@@ -250,7 +250,7 @@ export default function PrivacyPolicy() {
               <div className="space-y-2 text-gray-700">
                 <p><strong>Email:</strong> contact@swissonix.com</p>
                 <p><strong>Company:</strong> Swissonix</p>
-                <p><strong>Address:</strong> New Delhi, India</p>
+                <p><strong>Address:</strong> Bangalore, India</p>
               </div>
               
               <p className="text-gray-600 mt-4">
